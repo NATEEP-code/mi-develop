@@ -1,0 +1,27 @@
+[
+    {
+        "img":"../image/mi/mi-index/Redmi-Tel.webp",
+        "title":"小米电视大师82英寸至尊纪念版",
+        "price":"49999元"
+    },
+    {
+        "img":"../image/mi/mi-index/Redmi-Tel1.webp",
+        "title":"小米电视大师82英寸",
+        "price":"999元"
+    },
+    {
+        "img":"../image/mi/mi-index/Redmi-Tel2.webp",
+        "title":"小米透明电视",
+        "price":"49999元"
+    },
+    {
+        "img":"../image/mi/mi-index/Redmi-Tel3.webp",
+        "title":"小米电视大师65英寸OLED",
+        "price":"12999元"
+    },
+    {
+        "img":"../image/mi/mi-index/Redmi-Tel4.webp",
+        "title":"Redmi智能电视MAX 98\"",
+        "price":"19999元"
+    }
+]

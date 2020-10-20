@@ -1,0 +1,27 @@
+[
+    {
+        "img":"../image/mi/mi-index/Redmi.webp",
+        "title":"Redmi K30至尊纪念版",
+        "price":"1999元起"
+    },
+    {
+        "img":"../image/mi/mi-index/Redmi1.webp",
+        "title":"Redmi K30 Pro系列",
+        "price":"2999元起"
+    },
+    {
+        "img":"../image/mi/mi-index/Redmi2.webp",
+        "title":"Redmi K30系列",
+        "price":"1399元起"
+    },
+    {
+        "img":"../image/mi/mi-index/Redmi3.webp",
+        "title":"Redmi 10X",
+        "price":"999元起"
+    },
+    {
+        "img":"../image/mi/mi-index/Redmi4.webp",
+        "title":"Redmi Note 8",
+        "price":"899元起"
+    }
+]

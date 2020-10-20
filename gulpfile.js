@@ -42,6 +42,7 @@
     const webserver = require('gulp-webserver');
     const del = require('del');
     const sass = require('gulp-sass')
+    
 
     const cssHandler = ()=>{
         return gulp.src('./src/css/*.css')
@@ -55,6 +56,10 @@
     const imgHandler = ()=>{
         return gulp.src('./src/image/**')
         .pipe(gulp.dest('./dist/image'))
+    }
+    const jsonHandler = ()=>{
+        return gulp.src('./src/json/**')
+        .pipe(gulp.dest('./dist/json'))
     }
 
     const jsHandler = ()=>{
@@ -73,6 +78,10 @@
     const fontHandler = ()=>{
         return gulp.src('./src/font/**')
         .pipe(gulp.dest('./dist/font'))
+    }
+    const interfaceHandler = ()=>{
+        return gulp.src('./src/interface/**')
+        .pipe(gulp.dest('./dist/interface'))
     }
 
     const htmlHandler = ()=>{
@@ -97,6 +106,8 @@
         gulp.watch('./src/image/**',imgHandler);
         gulp.watch('./src/lib/**',libHandler);
         gulp.watch('./src/font/**',fontHandler);
+        gulp.watch('./src/json/**',jsonHandler);
+        gulp.watch('./src/interface/**',interfaceHandler);
         gulp.watch('./src/html/*.html',htmlHandler);
         gulp.watch('./src/js/*.js',jsHandler);
         gulp.watch('./src/sass/*.scss',sassHandler);
@@ -126,8 +137,10 @@
             jsHandler,
             libHandler,
             fontHandler,
+            interfaceHandler,
             htmlHandler,
-            sassHandler
+            sassHandler,
+            jsonHandler
         ),
         serverHandler,
         watchHandler
